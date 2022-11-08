@@ -1,0 +1,18 @@
+@charset 'UTF-8';
+
+
+ @font-face {
+    font-family:space;
+    src: url(space.ttf);
+}
+
+body {
+    background-color: rgb(3, 16, 75);
+}
+
+h1 {
+    background-image:linear-gradient(to bottom, aqua, rgb(3, 16, 75) );
+    font-family: 'space';
+
+    
+}

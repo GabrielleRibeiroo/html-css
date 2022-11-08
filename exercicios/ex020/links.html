@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Rigoly  favicon rosa.png" type="image/x-icon">
+    <title>links</title>
+
+    <style>
+        /* 
+    # = id
+    . = class 
+    : = Pseudo-classe
+    :: = Pseudo-elemento 
+    > = clidren
+    */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: brown;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        .mm {
+background-color: rgb(233, 69, 69);
+        }
+        .mm::after {
+            content: '<';
+        }
+        .mm::before {
+            content: '>';
+        }
+        a:visited {
+            color: rgb(90, 6, 6);
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf">Repositorio guithub</a></li>
+        <li><a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" class="mm">canal do youtubo</a></li>
+        <li><a href="https://www.cursoemvideo.com/">site do curso em video</a></li>
+    </ul>
+</body>
+
+</html>
