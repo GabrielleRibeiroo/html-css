@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
 * {
     margin: 0px;
     padding: opx;
@@ -72,17 +73,25 @@ section.imagem {
    
     background-color: rgb(54, 50, 50);
     color: white; 
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.685);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem>p {
-    background-color: rgba(0, 0, 0, 0.151);
+    background-color: rgba(0, 0, 0, 0.425);
   display:inline-block;
+  text-shadow: 1px 1px 0px black;
+
 }
 section#img01{
     background-image: url(../imagens/background001.jpg);
+    background-position:  center right ;
+     
 }
 section#img02{
-    background-image: url(,,);
+    background-image: url(../imagens/background002.jpg);
+    
 }
 
 footer {
